@@ -10,9 +10,9 @@ const myFunction2 = function (str, obj) {
 
 // Пример создания объекта:
 // const Obj1 = {
-  // a: 'abc'
-  // }
+//   a: 'abc'
+// }
 
-  // Пример вызова функции myFunction2:
-  // myFunction2('a', Obj1)
-  // Результат: true
+// Пример вызова функции myFunction2:
+// myFunction2('a', Obj1)
+// Результат: true
