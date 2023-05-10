@@ -76,7 +76,7 @@ function energyConsumption() {
 // pc.plugIn()
 // tv.plugIn()
 
-// Расчет потребляемой мощность осуществляется через функцию energyConsumption
+// Расчет потребляемой мощности осуществляется через функцию energyConsumption
 // Вызываем функцию: energyConsumption()
 // Результат: 2550
 
