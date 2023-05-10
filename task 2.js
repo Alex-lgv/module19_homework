@@ -8,14 +8,11 @@ const myFunction2 = function (str, obj) {
   }
 };
 
-//или
+// Пример создания объекта:
+// const Obj1 = {
+  // a: 'abc'
+  // }
 
-//const myFunction2 = function(str, obj) {
-//for (let key in obj) {
-//if (obj.hasOwnProperty(str)) {
-//console.log(str in obj);
-//} else {
-//console.log('false');
-//}
-//}
-//};
+  // Пример вызова функции myFunction2:
+  // myFunction2('a', Obj1)
+  // Результат: true
