@@ -70,3 +70,17 @@ const tv = new TvProperties("samsung", 1000);
 function energyConsumption() {
   console.log(lamp.devicePower() + pc.devicePower() + tv.devicePower());
 }
+
+// Пример включения приборов в розетку:
+// lamp.plugIn()
+// pc.plugIn()
+// tv.plugIn()
+
+// Расчет потребляемой мощность осуществляется через функцию energyConsumption
+// Вызываем функцию: energyConsumption()
+// Результат: 2550
+
+// Попробуем выключить один из приборов:
+// pc.plugOut()
+// Вызываем функцию: energyConsumption()
+// Результат: 1050
